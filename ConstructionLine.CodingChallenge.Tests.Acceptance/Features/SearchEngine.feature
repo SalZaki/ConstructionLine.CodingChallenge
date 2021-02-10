@@ -9,7 +9,7 @@
 Scenario: Search for shirts
 
 	Given I configure search engine with the following details:
-	| Id									| Name				| Size		| Color		|
+	| Id                                    | Name				| Size		| Color		|
 	| E8F89748-9E61-404A-BE81-558383019A9C	| Red - Small		| Small		| Red		|
 	| 1109C7C9-619C-445E-9313-6D525050AAEA	| Red - Large		| Large		| Red		|
 	| 209475B9-CFCA-4A60-9EFC-C6255AA0DDEF	| Red - Medium		| Medium	| Red		|
