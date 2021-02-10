@@ -25,7 +25,7 @@ An example feature file is shown below,
 Scenario: Search for shirts
 
 	Given I configure search engine with the following details:
-	`#1589F0`| Id					| Name			| Size		| Color		|
+	| Id					| Name			| Size		| Color		|
 	| E8F89748-9E61-404A-BE81-558383019A9C	| Red - Small		| Small		| Red		|
 	| 1109C7C9-619C-445E-9313-6D525050AAEA	| Red - Large		| Large		| Red		|
 	| 209475B9-CFCA-4A60-9EFC-C6255AA0DDEF	| Red - Medium		| Medium	| Red		|
@@ -34,23 +34,23 @@ Scenario: Search for shirts
 	| 884D53D1-0176-4E41-9ABB-23425A9D6DBD	| Black - Small		| Small		| Black		|
 
 	When I do search with the following search options:
-	`#1589F0`| Size					| Color			|
+	| Size					| Color			|
 	| Small					| Red			|
 	| Medium				| Blue			|
 
 	Then I get the following search results:
-	`#1589F0`| Id                                    | Name			| Size		| Color		|
+	| Id                                    | Name			| Size		| Color		|
 	| E8F89748-9E61-404A-BE81-558383019A9C  | Red - Small		| Small		| Red		|
 	| 209475B9-CFCA-4A60-9EFC-C6255AA0DDEF  | Red - Medium		| Medium	| Red		|
 
 	And I get the following size counts:
-	`#1589F0`| Name                                  | Count			|
+	| Name                                  | Count			|
 	| Small					| 1			|
 	| Medium				| 1			|
 	| Large					| 0			|
 
 	And I get the following color counts:
-	`#1589F0`| Name					| Count			|
+	| Name					| Count			|
 	| Red					| 2			|
 	| Blue					| 0			|
 	| Yellow				| 0			|
