@@ -1,4 +1,4 @@
-﻿# Construction Line code challenge - Acceptance Tests
+# Construction Line code challenge - Acceptance Tests
 
 ## Overview
 This test project, demonstrates the use of Speflow is used with C# for our acceptance testing with business domain expert.
