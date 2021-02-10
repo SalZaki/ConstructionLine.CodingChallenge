@@ -1,5 +1,7 @@
 # Construction Line code challenge - Acceptance Tests
 
+![alt text](https://github.com/SalZaki/ConstructionLine.CodingChallenge/blob/master/ConstructionLine.CodingChallenge.Tests.Acceptance/specflow.jpg?raw=true)
+
 ## Overview
 This test project, demonstrates the use of Speflow is used with C# for our acceptance testing with business domain expert.
 
